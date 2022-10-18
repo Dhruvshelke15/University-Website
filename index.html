@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,500&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/4976a87626.js"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">STUDENTS</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="exam.html">EXAMINATION</a></li>
+                    <li><a href="http://localhost:3000/">SIGN UP</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class = "text-box">
+        <h1>Worlds Best University</h1>
+        <p>Welcome to our university where we create better opportunities for<br>our students in every possible field.</p>
+        <a href="https://goo.gl/maps/WMmuUYB2FrEiczCC9" class="hero-btn1" target="_blank">Visit us</a>
+        <a href="https://www.youtube.com/watch?v=2G1KpKlhoEo" class="hero-btn2" target="_blank">Know more about us on Youtube</a>
+    </div>
+    </section>
+    <section class="ytbe">
+        <h2>Introduction to our University.</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2G1KpKlhoEo?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="Course">
+        <h1>Courses we offer</h1>
+        <p>We offer some of the best and accesible courses in the world. Choose from below.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>It means the two years of mental stress and pressure you handle after studying for 10years. Usually called as 10+2, where you get to choose your discipline(Science, commerce or Humanities(arts)) and then study further in it.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>An academic degree is a qualification awarded to students upon successful completion of a course of study in higher education, usually at a college or university.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Postgraduate education (graduate education in North America) involves learning and studying for academic or professional degrees, academic or professional certificates, academic or professional diplomas.</p>
+            </div>
+        </div>
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+    <section class="campus">
+        <h1>Global Campus</h1>
+        <p>We are established over a number of Metropoliton cities in the World!</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.jpg">
+                <div class="layer   ">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/tokyo.jpg">
+                <div class="layer">
+                    <h3>TOKYO</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/berlin.jpg">
+                <div class="layer">
+                    <h3>BERLIN</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>To get to know us, below are some of our socials where you can contact us.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> By ADBMS Group 11.</p>
+</section>
+
+</body>
+</html>

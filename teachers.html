@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,500&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/4976a87626.js"></script>
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">STUDENTS</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="exam.html">EXAMINATION</a></li>
+                    <li><a href="http://localhost:3000/">SIGN UP</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Teachers</h1>
+    </section>
+
+    <section class="students">
+        <h1>Teachers for every step</h1>
+        <div class="row">
+            <div class="about-stud">
+                    <p>A teacher is a person with commendable skills for helping others learn, guiding, and helping solve a problem. Teachers should have excellent communication skills so that the students can understand everything and learn with ease. Teachers have several credentials as per their designation or where they are teaching. Our parents also, to an extent, qualify as teachers, even though unprofessional, but they still work hard to guide us in our and pledge to help us from or even before when we are born. Teachers also grow with the experience they get while years of teaching in an institution. Teachers see many generations growing in front of them and, most times, become a significant factor in sculpting their personalities. One might wonder how hard being a teacher might be, but let me tell you it is not an easy task. Being a teacher involved being proficient in their matter of teaching and also being very good with explaining the concepts with ease, other than this, a teacher will also have tremendous observing skills to understand the progress of each student and work on changes with the dynamic education system at present. Other than this, being a teacher also means being able to test your students’ knowledge, and proficiency on the matter taught and later helping those who couldn’t understand clearly from the results of the evaluation</p>
+            </div>
+            <div class="about-stud">
+                <img src="images/teacher1.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-stud2">
+                <img src="images/teacher2.jpg">
+            </div>
+            <div class="about-stud2">
+                    <p>A teacher and a student both are incomplete without each other. The teacher should have the highest regard for a student after his/her parents. Also the teacher should be impartial to all his/her students and always work for their growth. A good relation between a teacher and a student can only be made by providing a good educational environment. As said that the student must always respect his/her teachers, in the same way the teachers should also respect the student and his/her opinions. The love and care for student should be according to the time, for example the love for a child of play group is much different from than the love for a child of higher classes. A student is nothing without a good teacher so we should always respect our teachers and obey them. A teacher can be a good teacher only when he possesses certain qualities that can make him/her an ideal teacher. The most basic quality that a modern teacher should have is to have a good command over his/her teaching subject. This is how s/he will be able to solve every single doubt of his pupils. What comes next in the list is a good teaching manner. It is very important to be an effective teacher. Besides a good knowledge, one can’t be a good teacher if s/he does not have teaching manner. It comes from experience. A good teacher should always have love for his/her students without any discrimination but it does not mean that s/he should be emotional. A teacher should never be emotional because it is an obstacle to be an ideal. The teacher should never be confused and must have the ability to express his/her thoughts.</p>
+            </div>
+        </div>
+        <div>
+            <a href="https://formsubmit.co/el/wifogi" class="green-btn">Contact Us</a>
+        </div>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>To get to know us, below are some of our socials where you can contact us.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> By ADBMS Group 11.</p>
+</section>
+
+</body>
+</html>

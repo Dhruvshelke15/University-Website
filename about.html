@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,500&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/4976a87626.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">STUDENTS</a></li>
+                    <li><a href="teachers.html">TEACHERS</a></li>
+                    <li><a href="exam.html">EXAMINATION</a></li>
+                    <li><a href="http://localhost:3000/">SIGN UP</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Students</h1>>
+    </section>
+
+    <section class="students">
+        <h1>Students are our First Priority</h1>
+        <div class="row">
+            <div class="about-stud">
+                    <p>We make sure each and every student in our University get equal opportunities in the fields they are interested in. The welfare and well-being of our students are always among our priorities. To us, it is of paramount importance to forge strong connections with our well-valued students as there is certainly more to school than just a report card. Sure, it is fundamental to hone our students’ academic knowledge and skill-sets but it is also crucial to understand them on a deeper level. We firmly believe in building an amicable rapport with our students whilst creating a learning experience that can be both fun and enriching!<br>We notice that it is a common for rising tuitions to take a toll on students’ monetary means. Regardless of their academic qualities or financial status, we try our best to offer the best student loans and/or financial aid options for students who are seeking financial support. Never let a stumble in the road be the end of the journey! Throughout our students’ sophomore and college years, help on resume building and cover letter writing techniques are available on request. In addition, students are thoroughly prepared to thrive in a globally competitive workforce as they are endowed with adept hands-on skills and abilities.</p>
+            </div>
+            <div class="about-stud">
+                <img src="images/student1.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-stud2">
+                <img src="images/student2.jpg">
+            </div>
+            <div class="about-stud2">
+                    <p>We make sure each and every student in our University get equal opportunities in the fields they are interested in. The welfare and well-being of our students are always among our priorities. To us, it is of paramount importance to forge strong connections with our well-valued students as there is certainly more to school than just a report card. Sure, it is fundamental to hone our students’ academic knowledge and skill-sets but it is also crucial to understand them on a deeper level. We firmly believe in building an amicable rapport with our students whilst creating a learning experience that can be both fun and enriching!<br>We notice that it is a common for rising tuitions to take a toll on students’ monetary means. Regardless of their academic qualities or financial status, we try our best to offer the best student loans and/or financial aid options for students who are seeking financial support. Never let a stumble in the road be the end of the journey! Throughout our students’ sophomore and college years, help on resume building and cover letter writing techniques are available on request. In addition, students are thoroughly prepared to thrive in a globally competitive workforce as they are endowed with adept hands-on skills and abilities.</p>
+            </div>
+        </div>
+        <div>
+            <a href="http://localhost/feedback.php" class="blue-btn">Feedback</a>
+        </div>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>To get to know us, below are some of our socials where you can contact us.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> By ADBMS Group 11.</p>
+</section>
+
+</body>
+</html>
