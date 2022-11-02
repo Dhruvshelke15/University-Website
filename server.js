@@ -37,3 +37,13 @@ app.post("/", function(req, res){
 app.listen(3000, function(){
     console.log("server is running on 3000");
 })
+
+
+
+/* npm init
+
+npm install express body-parser mongoose nodemon
+
+nodemon index.js
+
+*/
