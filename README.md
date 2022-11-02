@@ -12,7 +12,10 @@ To use the website on a New PC install the following:
   3. XAMPP
   4. Git
 
-Install by using terminal instructions in server.js file
+In MongoDB Compass enter the following 'mongodb+srv://admin:admin@cluster0.t0ntt.mongodb.net/details' and click on connect.
+
+Open VS Code
+Install by using terminal instructions in server.js file.
 Type 'nodemon index.js' in the terminal
 
 Place the feedback.php file in C:\xampp\htdocs folder, then launch xampp from start, start Apache and MySql.
